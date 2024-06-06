@@ -12,7 +12,7 @@
   };
 
   mobile.boot.stage-1 = {
-    kernel.package = pkgs.callPackage ./kernel {};
+    kernel.package = lib.mkDefault (pkgs.callPackage ./kernel {});
   };
 
   mobile.system.depthcharge.kpart = {
