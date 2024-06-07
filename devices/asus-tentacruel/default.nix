@@ -2,12 +2,12 @@
 
 {
   imports = [
-    ../families/mainline-chromeos-mt8183
+    ../families/mainline-chromeos-mt8186
   ];
 
   mobile.device.name = "asus-tentacruel";
   mobile.device.identity = {
-    name = "";
+    name = "Chromebook CM14 Flip";
     manufacturer = "Asus";
   };
   mobile.device.supportLevel = "best-effort";
