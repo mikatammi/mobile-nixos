@@ -8,7 +8,7 @@ let
     cfg.mediatek-mt6785.enable
     cfg.mediatek-mt8127.enable
     cfg.mediatek-mt8183.enable
-    cfg.mediatek-mt8183.enable
+    cfg.mediatek-mt8186.enable
   ];
 in
 {
