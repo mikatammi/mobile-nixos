@@ -123,7 +123,7 @@ in
       BUG = yes;
       # Consider disabling on platforms with tiny boot partitions.
       KALLSYMS = yes;
-      KALLSYMS_ALL = no;
+      # KALLSYMS_ALL = no;
       PROFILING = no;
       DEBUG_INFO_NONE = whenAtLeast "5.18" yes;
       SECURITY = yes;

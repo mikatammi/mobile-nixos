@@ -30,7 +30,7 @@ in
       DYNAMIC_DEBUG             = yes;
       DEBUG_STACK_USAGE         = no;
       RCU_TORTURE_TEST          = no;
-      SCHEDSTATS                = no;
+      # SCHEDSTATS                = no;
       DETECT_HUNG_TASK          = yes;
       CRASH_DUMP                = option no;
       # Provide access to tunables like sched_migration_cost_ns
