@@ -20,7 +20,7 @@
     kernel.package = pkgs.callPackage ./kernel { };
   };
   mobile.boot.enableDefaultSerial = true;
-  boot.initrd.kernelModules = [
+  mobile.boot.stage-1.kernel.modules = [
     "anx7625"
     "parade-ps8640"
     "ite-it6505"
