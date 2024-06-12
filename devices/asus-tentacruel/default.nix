@@ -19,4 +19,17 @@
   mobile.boot.stage-1 = {
     kernel.package = pkgs.callPackage ./kernel { };
   };
+  mobile.boot.enableDefaultSerial = true;
+  boot.initrd.kernelModules = [
+    "anx7625"
+    "parade-ps8640"
+    "ite-it6505"
+    "panel-edp"
+    "hid-generic"
+    "hid-multitouch"
+    "i2c-hid-of"
+    "i2c-hid-of-goodix"
+    "elan-i2c"
+    "cros-ec-keyb"
+  ];
 }
